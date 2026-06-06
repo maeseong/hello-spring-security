@@ -107,5 +107,13 @@
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<div class="text-center mt-4 mb-4">
+    <p class="text-muted">
+        <small>
+            학번: 2171242 | 성명: 김혜성 | 실습 수행: <span th:text="${#temporals.format(#temporals.createNow(), 'yyyy년 MM월 dd일 a hh:mm:ss')}"></span>
+        </small>
+    </p>
+</div>
 </body>
 </html>
